@@ -1,0 +1,98 @@
+header {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    background: linear-gradient(to right, #3498db, #e74c3c);
+
+}
+
+footer {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to right, #3498db, #e74c3c);
+
+}
+
+footer p a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #3498db, #e74c3c);
+    color: #fff;
+}
+
+#converter {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #3498db, #e74c3c);
+
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    margin: 15px 0;
+    border: none;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Responsive Styles */
+@media (min-width: 401px) {
+    #converter {
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    input,
+    select,
+    button {
+        width: calc(100% - 20px);
+    }
+}
